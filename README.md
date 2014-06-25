@@ -4,7 +4,7 @@
 
 ### 下载 download
 
-请在 [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-v1.0 'Download') 下载
+请在 [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-v1.0.zip 'Download') 下载
 
 ** 目前仅支持 Internet Explorer Developer Channel 版本（x64位）。
 

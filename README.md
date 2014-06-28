@@ -1,28 +1,28 @@
 # Linr IE Web Driver
 
-* IE Ô­Éú Web Driver µ÷ÓÃ£¬Í¨¹ı¼òµ¥ÅäÖÃ£¬¼´¿É×Ô¶¯»¯²âÊÔ IE ä¯ÀÀÆ÷£¨Ä¿Ç°½öÏŞ Internet Explorer Developer Channel °æ±¾£©¡£×öÒ»Ğ©×Ô¶¯»¯µÄ²Ù×÷£¬¶¼ÊÇºÜÈİÒ×µÄ¡£Èç¿ìËÙµÇÂ¼¡¢ÇÀÆ±µÈ¡£
+* IE åŸç”Ÿ Web Driver è°ƒç”¨ï¼Œé€šè¿‡ç®€å•é…ç½®ï¼Œå³å¯è‡ªåŠ¨åŒ–æµ‹è¯• IE æµè§ˆå™¨ï¼ˆç›®å‰ä»…é™ Internet Explorer Developer Channel ç‰ˆæœ¬ï¼‰ã€‚åšä¸€äº›è‡ªåŠ¨åŒ–çš„æ“ä½œï¼Œéƒ½æ˜¯å¾ˆå®¹æ˜“çš„ã€‚å¦‚å¿«é€Ÿç™»å½•ã€æŠ¢ç¥¨ç­‰ã€‚
 
-### ÏÂÔØ download
+### ä¸‹è½½ download
 
-ÇëÔÚ [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-v1.1.zip 'Download') ÏÂÔØ
+è¯·åœ¨ [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-v1.1.zip 'Download') ä¸‹è½½
 
-** Ä¿Ç°½öÖ§³Ö Internet Explorer Developer Channel °æ±¾£¨x64, x86£©¡£
+** ç›®å‰ä»…æ”¯æŒ Internet Explorer Developer Channel ç‰ˆæœ¬ï¼ˆx64, x86ï¼‰ã€‚
 
-### ²Ù×÷·½·¨ How to
+### æ“ä½œæ–¹æ³• How to
 
-* ¿ªÊ¼-ÔËĞĞ-cmd
-* Õ³Ìù»òÊäÈë ¸ñÊ½£ºLinrIEWebDriver.exe xxx.json /appvve:9BD02EED-6C11-4FF0-8A3E-0B4733EE86A1_6A0357B5-AB99-4856-8A59-CF2C38579E78
-* Èç£ºLinrIEWebDriver.exe config.json /appvve:9BD02EED-6C11-4FF0-8A3E-0B4733EE86A1_6A0357B5-AB99-4856-8A59-CF2C38579E78
+* å¼€å§‹-è¿è¡Œ-cmd
+* ç²˜è´´æˆ–è¾“å…¥ æ ¼å¼ï¼šLinrIEWebDriver.exe xxx.json /appvve:9BD02EED-6C11-4FF0-8A3E-0B4733EE86A1_6A0357B5-AB99-4856-8A59-CF2C38579E78
+* å¦‚ï¼šLinrIEWebDriver.exe config.json /appvve:9BD02EED-6C11-4FF0-8A3E-0B4733EE86A1_6A0357B5-AB99-4856-8A59-CF2C38579E78
 
-### ÏµÍ³ÒªÇó system requred:
+### ç³»ç»Ÿè¦æ±‚ system requred:
 
-* Windows 7/8 + Internet Explorer Developer Channel (http://devchannel.modern.ie/ ÏÂÔØ)
+* Windows 7/8 + Internet Explorer Developer Channel (http://devchannel.modern.ie/ ä¸‹è½½)
 
 
-### ²Î¿¼ÅäÖÃ
+### å‚è€ƒé…ç½®
 
-* ´ò¿ª bing ÊäÈë WebDriver£¬½ØÆÁ²¢µ¯³ö 123 ÌáÊ¾ config.json£º
-
+* æ‰“å¼€ bing è¾“å…¥ WebDriverï¼Œæˆªå±å¹¶å¼¹å‡º 123 æç¤º config.jsonï¼š
+<pre>
 {
 	"newSession":[],
 	"get":"http://bing.com",
@@ -34,6 +34,7 @@
 	"takeScreenshot":"",
 	"executeScript(script, args)" : ['alert(arguments[0])', ["123"]]
 }
+</pre>
 
-## Web Driver ÃüÁî JSON ²Î¿¼£º
+## Web Driver å‘½ä»¤ JSON å‚è€ƒï¼š
 http://msdn.microsoft.com/en-us/library/ie/dn722336(v=vs.85).aspx

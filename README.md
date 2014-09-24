@@ -1,8 +1,8 @@
 # Linr IE Web Driver
 
-* IE 原生 Web Driver 调用，通过简单配置，即可自动化测试 IE 浏览器（目前仅限 Internet Explorer Developer Channel 版本）。做一些自动化的操作，都是很容易的。如快速登录、抢票等。
+* IE 原生 Web Driver 调用，通过简单配置，即可自动化测试 IE 浏览器。做一些自动化的操作，都是很容易的。如快速登录、抢票等。
 
-### 下载 download
+### 下载 download （请选择您对应的 IE 版本）
  
 * 请在 [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-for-IE11.zip 'Download') 下载 for IE11
 * 请在 [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-v1.0.zip 'Download') 下载 for IE Developer Channel

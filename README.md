@@ -13,7 +13,7 @@
 ### 操作方法 How to (for IE 11)
 
 * 双击 LinrIEWebDriver.exe （默认使用 config.json 这个配置文件）
-* 将配置文件 xxx.json 拖到 LinrIEWebDriver.exe 运行，则使用 config.json 作为配置文件
+* 将配置文件 xxx.json 拖到 LinrIEWebDriver.exe 运行，则使用 xxx.json 作为配置文件
 
 *** config.json 文件示例
 

@@ -1,33 +1,58 @@
 # Linr IE Web Driver
 
-* IE Ô­Éú Web Driver µ÷ÓÃ£¬Í¨¹ı¼òµ¥ÅäÖÃ£¬¼´¿É×Ô¶¯»¯²âÊÔ IE ä¯ÀÀÆ÷¡£×öÒ»Ğ©×Ô¶¯»¯µÄ²Ù×÷£¬¶¼ÊÇºÜÈİÒ×µÄ¡£Èç¿ìËÙµÇÂ¼¡¢ÇÀÆ±µÈ¡£
+* IE åŸç”Ÿ Web Driver è°ƒç”¨ï¼Œé€šè¿‡ç®€å•é…ç½®ï¼Œå³å¯è‡ªåŠ¨åŒ–æµ‹è¯• IE æµè§ˆå™¨ã€‚åšä¸€äº›è‡ªåŠ¨åŒ–çš„æ“ä½œï¼Œéƒ½æ˜¯å¾ˆå®¹æ˜“çš„ã€‚å¦‚å¿«é€Ÿç™»å½•ã€æŠ¢ç¥¨ç­‰ã€‚
 
-### ÏÂÔØ download £¨ÇëÑ¡ÔñÄú¶ÔÓ¦µÄ IE °æ±¾£©
+### ä¸‹è½½ download ï¼ˆè¯·é€‰æ‹©æ‚¨å¯¹åº”çš„ IE ç‰ˆæœ¬ï¼‰
  
-* ÇëÔÚ [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-for-IE11.zip 'Download') ÏÂÔØ for IE11
-* ÇëÔÚ [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-v1.0.zip 'Download') ÏÂÔØ for IE Developer Channel
+* è¯·åœ¨ [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-for-IE11.zip 'Download') ä¸‹è½½ for IE11
+* è¯·åœ¨ [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-v1.0.zip 'Download') ä¸‹è½½ for IE Developer Channel
 
-** IE11 ÓÃ»§ÌáÊ¾£º
-* ÄúĞèÒªÏÂÔØ°²×° WebDriver library http://go.microsoft.com/fwlink/p/?LinkID=510280
+** IE11 ç”¨æˆ·æç¤ºï¼š
+* æ‚¨éœ€è¦ä¸‹è½½å®‰è£… WebDriver library http://go.microsoft.com/fwlink/p/?LinkID=510280
 
-### ²Ù×÷·½·¨ How to (for IE 11)
+### æ“ä½œæ–¹æ³• How to (for IE 11)
 
-* Ë«»÷ LinrIEWebDriver.exe £¨Ä¬ÈÏÊ¹ÓÃ config.json Õâ¸öÅäÖÃÎÄ¼ş£©
-* ½«ÅäÖÃÎÄ¼ş xxx.config ÍÏµ½ LinrIEWebDriver.exe ÔËĞĞ£¬ÔòÊ¹ÓÃ xxx.config ×÷ÎªÅäÖÃÎÄ¼ş
+* åŒå‡» LinrIEWebDriver.exe ï¼ˆé»˜è®¤ä½¿ç”¨ config.json è¿™ä¸ªé…ç½®æ–‡ä»¶ï¼‰
+* å°†é…ç½®æ–‡ä»¶ xxx.config æ‹–åˆ° LinrIEWebDriver.exe è¿è¡Œï¼Œåˆ™ä½¿ç”¨ xxx.config ä½œä¸ºé…ç½®æ–‡ä»¶
 
-### ²Ù×÷·½·¨ How to (for IE Developer Channel)
+*** config.json æ–‡ä»¶ç¤ºä¾‹
 
-* ¿ªÊ¼-ÔËĞĞ-cmd
-* Õ³Ìù»òÊäÈë ¸ñÊ½£ºLinrIEWebDriver.exe xxx.json /appvve:9BD02EED-6C11-4FF0-8A3E-0B4733EE86A1_6A0357B5-AB99-4856-8A59-CF2C38579E78
-* Èç£ºLinrIEWebDriver.exe config.json /appvve:9BD02EED-6C11-4FF0-8A3E-0B4733EE86A1_6A0357B5-AB99-4856-8A59-CF2C38579E78
+    {
+    	"newSession":[],
+    	"get":"http://bing.com",
+    	"wait":20,
+    	"maximizeWindow":{},
+    	"takeScreenshot":"^^^"
+    }
 
-### ÏµÍ³ÒªÇó system requred:
+*** config-lite.json æ–‡ä»¶ç¤ºä¾‹
+
+    {
+    	"newSession":[],
+    	"get":"http://bing.com",
+    	"wait":20,
+    	"maximizeWindow":{},
+    	"findElement":"input[name=q]",
+    	"sendKeys":["W", "e", "b", "D", "r", "i", "v", "e", "r", "\uE007"],
+    	"executeScript":"alert(1)",
+    	"takeScreenshot":"",
+    	"executeScript(script, args)" : ['alert(arguments[0])', ["123"]]
+    }
+
+
+### æ“ä½œæ–¹æ³• How to (for IE Developer Channel)
+
+* å¼€å§‹-è¿è¡Œ-cmd
+* ç²˜è´´æˆ–è¾“å…¥ æ ¼å¼ï¼šLinrIEWebDriver.exe xxx.json /appvve:9BD02EED-6C11-4FF0-8A3E-0B4733EE86A1_6A0357B5-AB99-4856-8A59-CF2C38579E78
+* å¦‚ï¼šLinrIEWebDriver.exe config.json /appvve:9BD02EED-6C11-4FF0-8A3E-0B4733EE86A1_6A0357B5-AB99-4856-8A59-CF2C38579E78
+
+### ç³»ç»Ÿè¦æ±‚ system requred:
 
 * Windows 7/8 + IE11
-»ò
-* Windows 7/8 + Internet Explorer Developer Channel (http://devchannel.modern.ie/ ÏÂÔØ)
+æˆ–
+* Windows 7/8 + Internet Explorer Developer Channel (http://devchannel.modern.ie/ ä¸‹è½½)
 
-## Web Driver ÃüÁî JSON ²Î¿¼£º
+## Web Driver å‘½ä»¤ JSON å‚è€ƒï¼š
 
 * http://msdn.microsoft.com/en-us/library/ie/dn800898(v=vs.85).aspx for IE11
 * http://msdn.microsoft.com/en-us/library/ie/dn722336(v=vs.85).aspx for IE Developer Channel

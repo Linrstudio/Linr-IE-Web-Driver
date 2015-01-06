@@ -4,7 +4,7 @@
 
 ### 下载 download （请选择您对应的 IE 版本）
  
-* 请在 [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-for-IE11-v.1.1.0 'Download') 下载 for IE11
+* 请在 [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-for-IE11-v.1.1.0.zip 'Download') 下载 for IE11
 * 请在 [Download](https://github.com/Linrstudio/Linr-IE-Web-Driver/raw/master/download/Linr-IE-Web-Driver-v1.0.zip 'Download') 下载 for IE Developer Channel
 
 ** IE11 用户提示：
